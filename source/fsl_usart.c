@@ -908,14 +908,14 @@ void USART2_DriverIRQHandler(void)
 #endif
 
 #if defined(USART3)
-void PIN_INT6_USART3_DriverIRQHandler(void)
+void USART3_DriverIRQHandler(void)
 {
     s_usartIsr(USART3, s_usartHandle[3]);
 }
 #endif
 
 #if defined(USART4)
-void PIN_INT7_USART4_DriverIRQHandler(void)
+void USART4_DriverIRQHandler(void)
 {
     s_usartIsr(USART4, s_usartHandle[4]);
 }
